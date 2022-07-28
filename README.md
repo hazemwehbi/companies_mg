@@ -20,6 +20,10 @@ Testing with phpunit
 ### PRESEREQUISITES ###
 
 - php8.1
+- composer
+
+### CI/CD Github (.github/workflows/php.yml)
+You can find the CI/CD Github pipeline for deployment and production process
 
 ### UNIT TEST ###
 
