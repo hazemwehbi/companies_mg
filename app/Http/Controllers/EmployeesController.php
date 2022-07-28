@@ -19,7 +19,7 @@ class EmployeesController extends BaseController
     {
         $request->validate([
             'first_name' => 'required|max:255',
-            'first_name' => 'required|max:255',
+            'last_name' => 'required|max:255',
             'company_id' => 'required|integer',
             'email' => 'email|unique:employees',
         ]);
@@ -30,7 +30,7 @@ class EmployeesController extends BaseController
     {
         $request->validate([
             'first_name' => 'required|max:255',
-            'first_name' => 'required|max:255',
+            'last_name' => 'required|max:255',
             'company_id' => 'required|integer',
             'email' => 'email|unique:employees,email,'.$id,
         ]);
