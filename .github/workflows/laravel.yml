@@ -34,4 +34,8 @@ jobs:
         touch database/database.sqlite
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       run: php artisan test --env=testing
+ 
+    - name: docker-compose -f {compose file name} up
+      run: docker-compose -f docker-compose.yml up
       
+
