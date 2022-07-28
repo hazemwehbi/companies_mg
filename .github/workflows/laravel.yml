@@ -30,9 +30,6 @@ jobs:
         touch database/database.sqlite
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       run: ./vendor/bin/phpunit tests
-
-    - name: PHPStan scans our whole codebase and looks for both obvious & tricky bugs
-      run: php -d memory_limit=4G ./vendor/bin/phpstan analyse -c phpstan.neon
         
     - name: Create MySQL image
       run: docker build -t testdb .
