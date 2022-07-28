@@ -29,4 +29,5 @@ jobs:
         mkdir -p database
         touch database/database.sqlite
     - name: Execute tests (Unit and Feature tests) via PHPUnit
-      run: php artisan test --env=testing
+      run: ./vendor/bin/phpunit tests
+
