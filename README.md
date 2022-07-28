@@ -26,8 +26,8 @@ Testing with phpunit
 - php artisan test --env=testing
 
 ### Execute Process ###
-`php artisan key:generate`
-`php artisan migrate --seed`
+- `php artisan key:generate`
+- `php artisan migrate --seed`
 
 ### PORT ###
 
