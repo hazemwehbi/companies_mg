@@ -35,6 +35,7 @@ You can find the CI/CD Github pipeline for deployment and production process
 
 ### PORT ###
 
+<<<<<<< HEAD
 - localhost:80
 
 ### Docker
@@ -42,3 +43,6 @@ Test MySQL server
 - Give Docker permission, `sudo chmod 666 /var/run/docker.sock`
 - Create MySQL image: `docker build -t testdb .`
 - Run MySQL: `docker run --detach --name=testdb --publish 3306:3306 testdb -e MYSQL_ROOT_PASSWORD=admin`
+=======
+- localhost:8000
+>>>>>>> bd4c4bc020037196e822c17bb9ca00973d551331
