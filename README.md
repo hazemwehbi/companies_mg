@@ -35,4 +35,4 @@ You can find the CI/CD Github pipeline for deployment and production process
 
 ### PORT ###
 
-- localhost:80
+- localhost:8000
