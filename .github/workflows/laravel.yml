@@ -43,6 +43,6 @@ jobs:
     - name: 📂 Sync files
       uses: hazemwehbi/companies_mg@master 
       with:
-        server: ${{ secrets.LARAVEL_SITE_SERVER}}
-        username: ${{ secrets.LARAVEL_SITE_USER}}
-        password: ${{ secrets.LARAVEL_SITE_PASS}}
+        server: ${{ secrets.SERVER}}
+        username: ${{ secrets.USERNAME}}
+        password: ${{ secrets.PASSWORD}}
