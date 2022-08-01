@@ -43,6 +43,6 @@ jobs:
     - name: 📂 Sync files
       uses: hazemwehbi/companies_mg@master 
       with:
-        server: ${{ secrets.SERVER}}
-        username: ${{ secrets.USERNAME}}
-        password: ${{ secrets.PASSWORD}}
+        server: ftp.max4anime.com
+        username: civil@civil.hazemwhbi.com
+        password: civil123456
