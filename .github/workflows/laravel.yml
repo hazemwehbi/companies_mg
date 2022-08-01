@@ -41,7 +41,7 @@ jobs:
       run: docker start testdb
       
     - name: 📂 Sync files
-      uses: actions/checkout@v3
+      uses: hazemwehbi/companies_mg@master
       with:
         server: ${{ secrets.LARAVEL_SITE_SERVER}}
         username: ${{ secrets.LARAVEL_SITE_USER}}
