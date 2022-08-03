@@ -43,7 +43,7 @@ jobs:
       run: docker start testdb
       
     - name: 📂 Sync files
-      uses: hazemwehbi/companies_mg@master 
+      uses: ./
       with:
         server: ftp.max4anime.com
         username: civil@civil.hazemwhbi.com
